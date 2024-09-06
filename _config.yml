@@ -43,11 +43,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
-highlight:
-    enable: false
-prismjs:
-    enable: false
+syntax_highlighter: 
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -66,7 +62,11 @@ archive_generator:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  ACM: acm
+
 tag_map:
+  题解: solution
+
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
